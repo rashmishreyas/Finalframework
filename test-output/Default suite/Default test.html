@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 23 09:40:41 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>1758 seconds (1758981 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testCancelIncidentTicket()'><b>testCancelIncidentTicket</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Cancelling Incident Ticket</td>
+<td></td>
+<td>83</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testCreateChildIncfromInc()'><b>testCreateChildIncfromInc</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Create Child Incident from Incident </td>
+<td></td>
+<td>62</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testCreateEmergencyChangefromInc()'><b>testCreateEmergencyChangefromInc</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Create Emergency change from Incident </td>
+<td></td>
+<td>66</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testCreateManagedIncidentTicket()'><b>testCreateManagedIncidentTicket</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Create managed incident ticket</td>
+<td></td>
+<td>60</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testCreateNormalChangefromInc()'><b>testCreateNormalChangefromInc</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Create Normal change from Incident </td>
+<td></td>
+<td>66</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testCreateStandAloneIncidentTicket()'><b>testCreateStandAloneIncidentTicket</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Create standalone incident ticket</td>
+<td></td>
+<td>61</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testCreateStandardChangefromInc()'><b>testCreateStandardChangefromInc</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Create Standard change from Incident </td>
+<td></td>
+<td>65</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testCreateincidentalert()'><b>testCreateincidentalert</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Create Incident Alert</td>
+<td></td>
+<td>127</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testResolveIncidentTicket()'><b>testResolveIncidentTicket</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Resolving Incident ticket</td>
+<td></td>
+<td>114</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testcopyincident()'><b>testcopyincident</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Copy Incident </td>
+<td></td>
+<td>64</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testcreateINCforuserimpact1()'><b>testcreateINCforuserimpact1</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Create Incident ticket for User impact 1</td>
+<td></td>
+<td>53</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testcreateINCforuserimpact2()'><b>testcreateINCforuserimpact2</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Create Incident ticket for User impact 2</td>
+<td></td>
+<td>54</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testcreateINCforuserimpact3()'><b>testcreateINCforuserimpact3</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Create Incident ticket for User impact 3</td>
+<td></td>
+<td>60</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testcreateIncidentfromIntake()'><b>testcreateIncidentfromIntake</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Create Incident ticket from Intake</td>
+<td></td>
+<td>59</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testcreateProblemfromIncident()'><b>testcreateProblemfromIncident</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Create Problem from Incident</td>
+<td></td>
+<td>80</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testcreateincidenttask()'><b>testcreateincidenttask</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Create Incident task</td>
+<td></td>
+<td>129</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testmoveIncidentTasktocancel()'><b>testmoveIncidentTasktocancel</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Progressing IncidentTask to Cancelled state</td>
+<td></td>
+<td>133</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testmoveIncidentTasktoclosecomplete()'><b>testmoveIncidentTasktoclosecomplete</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Progressing IncidentTask to CloseComplete state</td>
+<td></td>
+<td>138</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testreassignim()'><b>testreassignim</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Reassign Incident to different group </td>
+<td></td>
+<td>85</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testverifyINCforActiveIMtask()'><b>testverifyINCforActiveIMtask</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Validate Resolving/Cancelling INC with Active IM task </td>
+<td></td>
+<td>123</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+<tr>
+<td title='testNgMavenExample.TestNgMavenIncidentTest.testverifymandatoryfieldWIP()'><b>testverifymandatoryfieldWIP</b><br>Test class: testNgMavenExample.TestNgMavenIncidentTest<br>Test method: Validate mandatory fields in WIP state</td>
+<td></td>
+<td>69</td>
+<td>testNgMavenExample.TestNgMavenIncidentTest@239963d8</td></tr>
+</table><p>
+</body>
+</html>

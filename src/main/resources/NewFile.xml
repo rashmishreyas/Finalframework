@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SnowSuite" parallel="none">
+  <test name="SnowTest">
+    <classes>
+      
+      <class name="testNgMavenExample.TestNgMavenIncidentTest"/>
+      
+    </classes>
+  </test> <!-- SnowTest -->
+</suite> <!-- SnowSuite -->

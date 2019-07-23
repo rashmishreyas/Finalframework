@@ -1,0 +1,135 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.javacodegeeks.testng.maven</groupId>
+  <artifactId>testNgMavenExample</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  
+ <dependencies>
+       <dependency>
+       	<groupId>org.testng</groupId>
+       	<artifactId>testng</artifactId>
+       	<version>6.8.8</version>
+       </dependency>
+       <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.9.8</version>
+      <scope>test</scope>
+    </dependency>
+       
+ <dependency>
+   		<groupId>org.seleniumhq.selenium</groupId>
+   		<artifactId>selenium-server</artifactId>
+   		<version>[2.53.0,)</version>
+   </dependency>
+     
+
+<dependency>
+   			<groupId>org.apache.poi</groupId>
+   				<artifactId>poi-ooxml</artifactId>
+   				<version>3.13</version>
+   			</dependency>
+  	 <dependency>
+   			<groupId>org.apache.poi</groupId>
+   				<artifactId>poi-ooxml-schemas</artifactId>
+   					<version>3.13</version>
+   	</dependency>
+   	<dependency>
+   			<groupId>log4j</groupId>
+   				<artifactId>log4j</artifactId>
+   					<version>1.2.17</version>
+	 </dependency>
+   	<dependency>
+   		<groupId>org.apache.xmlbeans</groupId>
+   			<artifactId>xmlbeans</artifactId>
+   				<version>2.6.0</version>
+  	 </dependency>
+   	<dependency>
+  		 <groupId>xml-apis</groupId>
+   			<artifactId>xml-apis</artifactId>
+   				<version>1.4.01</version>
+   	</dependency>
+  	 <dependency>
+  			 <groupId>org.uncommons</groupId>
+  				 <artifactId>reportng</artifactId>
+  			 <version>[1.1.4,)</version>
+  	 </dependency>
+  	 <dependency>
+  				 <groupId>velocity</groupId>
+   				<artifactId>velocity</artifactId>
+   				<version>1.4</version>
+  	 </dependency>
+  	 
+  	 <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>3.0.7</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
+        
+  	 
+  </dependencies>
+  
+  
+  <distributionManagement>
+        <repository>
+            <id>bams-aws-release-maven-cloud</id>
+            <name>BAMS Release Repository</name>
+            <url>https://bams-aws.refinitiv.com/artifactory/webapp/#/artifacts/browse/tree/General/default.maven.global/ITSM-QA</url>
+        </repository>
+
+</distributionManagement>
+ <build>
+  <plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>3.0.1</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.0.2</version>
+				<executions>
+					<execution>
+						<goals>
+						<goal>test-jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			
+			
+			<plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-surefire-plugin</artifactId>
+	<version>2.12</version>
+	<inherited>true</inherited>
+	<configuration>
+	<suiteXmlFiles>
+	<suiteXmlFile>testng.xml</suiteXmlFile>
+	</suiteXmlFiles>
+	<testFailureIgnore>true</testFailureIgnore>
+	</configuration>         
+	</plugin>
+			
+			
+			</plugins>
+ </build>
+    
+</project>

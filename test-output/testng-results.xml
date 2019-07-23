@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1758981" started-at="2019-07-23T04:10:41Z" finished-at="2019-07-23T04:40:00Z">
+    <groups>
+      <group name="Incidents">
+        <method signature="TestNgMavenIncidentTest.testreassignim()[pri:18, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testreassignim" class="testNgMavenExample.TestNgMavenIncidentTest"/>
+      </group> <!-- Incidents -->
+    </groups>
+    <test name="Default test" duration-ms="1758981" started-at="2019-07-23T04:10:41Z" finished-at="2019-07-23T04:40:00Z">
+      <class name="testNgMavenExample.TestNgMavenIncidentTest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="startReport" is-config="true" duration-ms="399" started-at="2019-07-23T09:40:41Z" finished-at="2019-07-23T09:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="testCreateStandAloneIncidentTicket()[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testCreateStandAloneIncidentTicket" duration-ms="61139" started-at="2019-07-23T09:40:41Z" description="Create standalone incident ticket" finished-at="2019-07-23T09:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStandAloneIncidentTicket -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="2" started-at="2019-07-23T09:41:42Z" finished-at="2019-07-23T09:41:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandAloneIncidentTicket status=SUCCESS method=TestNgMavenIncidentTest.testCreateStandAloneIncidentTicket()[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testCreateManagedIncidentTicket()[pri:1, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testCreateManagedIncidentTicket" duration-ms="60100" started-at="2019-07-23T09:41:42Z" description="Create managed incident ticket" finished-at="2019-07-23T09:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateManagedIncidentTicket -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-23T09:42:43Z" finished-at="2019-07-23T09:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateManagedIncidentTicket status=SUCCESS method=TestNgMavenIncidentTest.testCreateManagedIncidentTicket()[pri:1, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testverifymandatoryfieldWIP()[pri:2, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testverifymandatoryfieldWIP" duration-ms="69008" started-at="2019-07-23T09:42:43Z" description="Validate mandatory fields in WIP state" finished-at="2019-07-23T09:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testverifymandatoryfieldWIP -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-23T09:43:52Z" finished-at="2019-07-23T09:43:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testverifymandatoryfieldWIP status=SUCCESS method=TestNgMavenIncidentTest.testverifymandatoryfieldWIP()[pri:2, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testcreateIncidentfromIntake()[pri:3, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testcreateIncidentfromIntake" duration-ms="59271" started-at="2019-07-23T09:43:52Z" description="Create Incident ticket from Intake" finished-at="2019-07-23T09:44:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateIncidentfromIntake -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-23T09:44:51Z" finished-at="2019-07-23T09:44:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcreateIncidentfromIntake status=SUCCESS method=TestNgMavenIncidentTest.testcreateIncidentfromIntake()[pri:3, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testResolveIncidentTicket()[pri:4, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testResolveIncidentTicket" duration-ms="114156" started-at="2019-07-23T09:44:51Z" description="Resolving Incident ticket" finished-at="2019-07-23T09:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResolveIncidentTicket -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-23T09:46:45Z" finished-at="2019-07-23T09:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResolveIncidentTicket status=SUCCESS method=TestNgMavenIncidentTest.testResolveIncidentTicket()[pri:4, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testCancelIncidentTicket()[pri:5, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testCancelIncidentTicket" duration-ms="83203" started-at="2019-07-23T09:46:45Z" description="Cancelling Incident Ticket" finished-at="2019-07-23T09:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCancelIncidentTicket -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-23T09:48:08Z" finished-at="2019-07-23T09:48:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCancelIncidentTicket status=SUCCESS method=TestNgMavenIncidentTest.testCancelIncidentTicket()[pri:5, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testCreateStandardChangefromInc()[pri:6, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testCreateStandardChangefromInc" duration-ms="65006" started-at="2019-07-23T09:48:08Z" description="Create Standard change from Incident " finished-at="2019-07-23T09:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStandardChangefromInc -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-23T09:49:13Z" finished-at="2019-07-23T09:49:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandardChangefromInc status=SUCCESS method=TestNgMavenIncidentTest.testCreateStandardChangefromInc()[pri:6, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testcreateProblemfromIncident()[pri:7, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testcreateProblemfromIncident" duration-ms="80922" started-at="2019-07-23T09:49:13Z" description="Create Problem from Incident" finished-at="2019-07-23T09:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateProblemfromIncident -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-23T09:50:34Z" finished-at="2019-07-23T09:50:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcreateProblemfromIncident status=SUCCESS method=TestNgMavenIncidentTest.testcreateProblemfromIncident()[pri:7, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testcreateincidenttask()[pri:8, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testcreateincidenttask" duration-ms="129504" started-at="2019-07-23T09:50:34Z" description="Create Incident task" finished-at="2019-07-23T09:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateincidenttask -->
+        <test-method status="PASS" signature="testCreateNormalChangefromInc()[pri:9, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testCreateNormalChangefromInc" duration-ms="66532" started-at="2019-07-23T09:52:44Z" description="Create Normal change from Incident " finished-at="2019-07-23T09:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNormalChangefromInc -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-23T09:52:44Z" finished-at="2019-07-23T09:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcreateincidenttask status=SUCCESS method=TestNgMavenIncidentTest.testcreateincidenttask()[pri:8, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testCreateEmergencyChangefromInc()[pri:10, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testCreateEmergencyChangefromInc" duration-ms="66351" started-at="2019-07-23T09:53:50Z" description="Create Emergency change from Incident " finished-at="2019-07-23T09:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateEmergencyChangefromInc -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-23T09:53:50Z" finished-at="2019-07-23T09:53:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateNormalChangefromInc status=SUCCESS method=TestNgMavenIncidentTest.testCreateNormalChangefromInc()[pri:9, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testCreateChildIncfromInc()[pri:11, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testCreateChildIncfromInc" duration-ms="62110" started-at="2019-07-23T09:54:57Z" description="Create Child Incident from Incident " finished-at="2019-07-23T09:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateChildIncfromInc -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-23T09:54:57Z" finished-at="2019-07-23T09:54:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateEmergencyChangefromInc status=SUCCESS method=TestNgMavenIncidentTest.testCreateEmergencyChangefromInc()[pri:10, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-23T09:55:59Z" finished-at="2019-07-23T09:55:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateChildIncfromInc status=SUCCESS method=TestNgMavenIncidentTest.testCreateChildIncfromInc()[pri:11, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testmoveIncidentTasktoclosecomplete()[pri:12, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testmoveIncidentTasktoclosecomplete" duration-ms="138447" started-at="2019-07-23T09:55:59Z" description="Progressing IncidentTask to CloseComplete state" finished-at="2019-07-23T09:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmoveIncidentTasktoclosecomplete -->
+        <test-method status="PASS" signature="testmoveIncidentTasktocancel()[pri:13, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testmoveIncidentTasktocancel" duration-ms="133064" started-at="2019-07-23T09:58:17Z" description="Progressing IncidentTask to Cancelled state" finished-at="2019-07-23T10:00:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmoveIncidentTasktocancel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-23T09:58:17Z" finished-at="2019-07-23T09:58:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testmoveIncidentTasktoclosecomplete status=SUCCESS method=TestNgMavenIncidentTest.testmoveIncidentTasktoclosecomplete()[pri:12, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testCreateincidentalert()[pri:14, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testCreateincidentalert" duration-ms="127193" started-at="2019-07-23T10:00:30Z" description="Create Incident Alert" finished-at="2019-07-23T10:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateincidentalert -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-23T10:00:30Z" finished-at="2019-07-23T10:00:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testmoveIncidentTasktocancel status=SUCCESS method=TestNgMavenIncidentTest.testmoveIncidentTasktocancel()[pri:13, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testcreateINCforuserimpact3()[pri:15, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testcreateINCforuserimpact3" duration-ms="60340" started-at="2019-07-23T10:02:37Z" description="Create Incident ticket for User impact 3" finished-at="2019-07-23T10:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateINCforuserimpact3 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-23T10:02:37Z" finished-at="2019-07-23T10:02:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateincidentalert status=SUCCESS method=TestNgMavenIncidentTest.testCreateincidentalert()[pri:14, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-23T10:03:38Z" finished-at="2019-07-23T10:03:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcreateINCforuserimpact3 status=SUCCESS method=TestNgMavenIncidentTest.testcreateINCforuserimpact3()[pri:15, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testcreateINCforuserimpact1()[pri:16, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testcreateINCforuserimpact1" duration-ms="53555" started-at="2019-07-23T10:03:38Z" description="Create Incident ticket for User impact 1" finished-at="2019-07-23T10:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateINCforuserimpact1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-23T10:04:31Z" finished-at="2019-07-23T10:04:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcreateINCforuserimpact1 status=SUCCESS method=TestNgMavenIncidentTest.testcreateINCforuserimpact1()[pri:16, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testcreateINCforuserimpact2()[pri:17, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testcreateINCforuserimpact2" duration-ms="54725" started-at="2019-07-23T10:04:31Z" description="Create Incident ticket for User impact 2" finished-at="2019-07-23T10:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateINCforuserimpact2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-23T10:05:26Z" finished-at="2019-07-23T10:05:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcreateINCforuserimpact2 status=SUCCESS method=TestNgMavenIncidentTest.testcreateINCforuserimpact2()[pri:17, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testreassignim()[pri:18, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testreassignim" duration-ms="85454" started-at="2019-07-23T10:05:26Z" description="Reassign Incident to different group " finished-at="2019-07-23T10:06:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testreassignim -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-23T10:06:51Z" finished-at="2019-07-23T10:06:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testreassignim status=SUCCESS method=TestNgMavenIncidentTest.testreassignim()[pri:18, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testcopyincident()[pri:19, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testcopyincident" duration-ms="64571" started-at="2019-07-23T10:06:51Z" description="Copy Incident " finished-at="2019-07-23T10:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcopyincident -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-23T10:07:56Z" finished-at="2019-07-23T10:07:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcopyincident status=SUCCESS method=TestNgMavenIncidentTest.testcopyincident()[pri:19, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testverifyINCforActiveIMtask()[pri:20, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="testverifyINCforActiveIMtask" duration-ms="123311" started-at="2019-07-23T10:07:56Z" description="Validate Resolving/Cancelling INC with Active IM task " finished-at="2019-07-23T10:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testverifyINCforActiveIMtask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-23T10:09:59Z" finished-at="2019-07-23T10:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testverifyINCforActiveIMtask status=SUCCESS method=TestNgMavenIncidentTest.testverifyINCforActiveIMtask()[pri:20, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testNgMavenExample.TestNgMavenIncidentTest@239963d8]" name="endReport" is-config="true" duration-ms="551" started-at="2019-07-23T10:09:59Z" finished-at="2019-07-23T10:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testNgMavenExample.TestNgMavenIncidentTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
