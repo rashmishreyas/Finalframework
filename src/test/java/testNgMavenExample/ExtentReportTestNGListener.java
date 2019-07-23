@@ -176,7 +176,7 @@ public class ExtentReportTestNGListener implements IReporter {
           
      	 htmlStringBuilder.append("</table><br />");
      	 
-     	 String jenkinsTestReportUrl ="https://jenkins.tr-corporate-prod.aws-int.thomsonreuters.com/fenric-tr-win/job/SNOW_QA/ws/test-output";
+     	 String jenkinsTestReportUrl ="http://localhost:8080/job/Test/ws/test-output/";
          
          htmlStringBuilder.append("<p>Access complete regression report"+ "<a href='" + jenkinsTestReportUrl + "' target='_blank'> here </a></p>");
         
